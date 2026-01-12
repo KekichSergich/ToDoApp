@@ -1,16 +1,13 @@
 import './styles/App.css'
-import Header from './components/AppHeader/Header.tsx';
+import Header from './components/app-header/AppHeader.tsx';
+import TodoSection from './components/todo-section/TodoSection.tsx';
+
 
 function App() {
   return(
     <>
       <Header />
-      <div className="App">
-        <header className="App-header">
-          <h1>Welcome to My App</h1>
-          <p>This is a simple React application.</p>
-        </header>
-      </div>
+      <TodoSection></TodoSection>
     </>
   )
 }
