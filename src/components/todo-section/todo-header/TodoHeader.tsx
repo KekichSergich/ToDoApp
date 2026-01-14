@@ -5,8 +5,8 @@ import AddTaskButton from './AddTaskButton';
 export default function TodoHeader(){
     return (
         <div className='todo-header'>
-            <AddTaskButton></AddTaskButton>
-            <FilterSelect></FilterSelect>
+            <AddTaskButton/>
+            <FilterSelect/>
         </div>
     )
 }
